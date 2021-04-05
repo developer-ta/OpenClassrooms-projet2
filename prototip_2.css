@@ -1,0 +1,303 @@
+body {
+    width: 1500px;
+    font-family: Raleway, Helvetica, sans-serif;
+    image-rendering: pixelated;
+}
+
+div.head {
+    padding: 20px;
+}
+
+div.logo {
+    display: inline-block;
+}
+
+.form {
+    box-shadow: 0px 0px 4px 0.2px gainsboro;
+    width: 440px;
+    border-radius: 20px;
+    margin: 20px 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form i {
+    font-size: x-large;
+    color: initial;
+}
+
+input {
+    border: none;
+    padding: 17px;
+    min-width: 100px;
+    background-color: #ffffff00;
+    font: menu;
+    font-weight: bolder;
+}
+
+.form button {
+    display: inline-block;
+    background-color: rgb(21, 108, 221);
+    color: white;
+    box-sizing: border-box;
+    border: none;
+    padding: 17px;
+    min-width: 100px;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-inline-start: 30px;
+    color: rgb(1 100 252);
+}
+
+nav {
+    display: inline-block;
+    margin-inline-start: 28px;
+    position: relative;
+    left: 60%;
+    bottom: 18px;
+    font-size: larger;
+}
+
+.form span {
+    padding: 25px;
+    background-color: rgb(242, 242, 242);
+}
+
+.filtres span {
+    padding: 26px;
+    background-color: rgb(225, 236, 253);
+    border-radius: 50%;
+    position: relative;
+    right: 23px;
+}
+
+.info {
+    border-radius: 100%;
+    padding: 6px 13px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px 1.4px gainsboro;
+}
+
+.info i {
+    text-align: center;
+}
+
+.filtres button {
+    background-color: white;
+    border-radius: 40px 40px;
+    margin-left: 15px;
+    padding: 20px 40px 20px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px 1.4px gainsboro;
+    border: none;
+    cursor: default;
+    font: 405 18.3333px Arial;
+    font-weight: bold;
+}
+
+.filtres i {
+    font-size: x-large;
+}
+
+.filtres label {
+    font-size: x-large;
+}
+
+form.filtres {
+    margin: 30px 0px 35px 0px;
+}
+
+p.Marseille {
+    margin-left: 20px;
+}
+
+h2.Marseille {
+    margin-left: 20px;
+}
+
+div.Marseille {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 20px;
+    display: inline-block;
+    width: 62%;
+    margin: 15px;
+}
+
+.Marseille div {
+    background-color: white;
+    border-radius: 20px;
+    display: inline-grid;
+    margin: 15px;
+    margin-top: 3px;
+}
+
+.Marseille img {
+    width: 267px;
+    height: 147px;
+    border-radius: 17px 17px 0 0;
+    padding: 5px;
+}
+
+.prix h4,
+p {
+    margin: -2px 0px 7px 0px;
+}
+
+div.prix {}
+
+div.plus_populaires {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 17px 28px;
+    margin: 0px 10px;
+    width: 27%;
+    display: inline-block;
+}
+
+.Hébergement_populaire div.prix {
+    padding: 22px;
+    background-color: white;
+    padding: 20px 20px 0 20px;
+}
+
+.plus_populaires img {
+    width: 161px;
+    height: 145px;
+    border-radius: 17px 0 0 17px;
+    padding: 5px;
+    background-color: white;
+}
+
+div.Hébergement-populaire {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+div.Hébergement_populaire {
+    display: inline-grid;
+    grid-template-columns: 41% 59%;
+    margin: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+
+i {
+    font-size: small;
+    color: blue;
+}
+
+.Hébergement_populaire i {
+    margin-top: 30px;
+}
+
+div.Activité {
+    border-radius: 20px;
+    display: grid;
+    grid-template-areas: "a b d e" "a c d j ";
+    grid-template-columns: 27% 23% 27% 23%;
+}
+
+.Activité div {
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.Activité1 {
+    grid-area: a;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité1 img {
+    height: 455px;
+    width: 100%;
+}
+
+.Activité2 img {
+    height: 185px;
+    width: 100%;
+}
+
+.Activité3 img {
+    height: 161px;
+    width: 100%;
+}
+
+.Activité4 img {
+    height: 455px;
+    width: 428px;
+}
+
+.Activité5 img {
+    height: 189px;
+    width: 100%;
+}
+
+.Activité6 img {
+    height: 155px;
+    width: 100%;
+}
+
+.Activité2 {
+    grid-area: a;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité2 {
+    grid-area: b;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité3 {
+    grid-area: c;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité4 {
+    grid-area: d;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité5 {
+    grid-area: e;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité6 {
+    grid-area: j;
+    box-shadow: 0px 0px 32px 14.1px rgb(240 240 240);
+}
+
+.Activité img {
+    border-radius: 17px 17px 0 0;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    margin: 49px 0px;
+    padding: 50px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    text-align: justify;
+}
+
+.footer td {
+    height: 40px;
+    vertical-align: bottom;
+}
